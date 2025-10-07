@@ -22,7 +22,7 @@ jobs:
             - name: Mostrar a estrutura de diretorio
               run: ls -la
             - name: Obtem codigo do projeto do repositorio 
-              run: actions/checkout@v3
+              uses: actions/checkout@v3
             - name: Mostrar a estrutura de diretorio atualizada
               run: |
                 echo "Estrutura do repositorio : "
