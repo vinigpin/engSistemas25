@@ -1,14 +1,15 @@
-# Clonar repositorio
+```bash
+# Clonar repositório
 git clone https://github.com/vinigpin/engSistemas25.git
 
-# Muda para o diretorio engSistemas25
+# Entrar no diretório
 cd engSistemas25
 
-# Inicializa o projeto Node
+# Inicializar projeto Node
 npm init -y
 
-# Atualiza o github
+# Atualizar o GitHub
 git add .
 git commit -m "Iniciando projeto actions"
 git push
-
+```
